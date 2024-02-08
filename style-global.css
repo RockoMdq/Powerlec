@@ -1,0 +1,249 @@
+	/* GLOBAL STYLE BY LAYOUTFLOW https://layoutflow.com */
+	*{
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+	}
+	html{
+	}
+	body{
+		background: #fff;
+		line-height: normal;
+		overflow-x: hidden;
+	}
+
+
+
+	.container{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.container.fw{
+		width: 100%;
+	}
+
+
+
+
+
+	.flf{
+		float: left;
+		width: 100%;
+	}
+	.lht_100{
+		line-height: 100%;
+	}
+
+
+	.p_relative{
+		position: relative;
+	}
+
+
+	.p_abs_basic{
+		position: absolute;
+		left: 0; top: 0;
+	}
+	.p_abs_basic_2{
+		position: absolute;
+		left: 0; bottom: 0;
+	}
+	.p_abs_basic_3{
+		position: absolute;
+		right: 0; top: 0;
+	}
+	.p_abs_basic_4{
+		position: absolute;
+		right: 0; bottom: 0;
+	}
+	.p_abs_r{
+		position: absolute;
+		right: 0;
+	}
+	.p_abs_rb{
+		position: absolute;
+		right: 0; bottom: 0;
+	}
+	.p_abs_advanced{
+		position: absolute;
+		left: 0; top: 0;
+		width: 100%;
+	}
+	.p_abs_advanced_2{
+		position: absolute;
+		left: 0; top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.p_fixed{
+		position: fixed;
+	}
+	.p_fixed_basic{
+		position: fixed;
+		left: 0; top: 0;
+	}
+	.p_fixed_basic_rt{
+		position: fixed;
+		right: 0; top: 0;
+	}
+	.p_fixed_basic_rb{
+		position: fixed;
+		right: 0; bottom: 0;
+	}
+	.p_fixed_advanced{
+		position: fixed;
+		left: 0; top: 0;
+		width: 100%;
+	}
+	.p_fixed_advanced_2{
+		position: fixed;
+		left: 0; top: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	.zidx1{z-index: 1;}
+	.zidx2{z-index: 2;}
+	.zidx3{z-index: 3;}
+	.zidx4{z-index: 4;}
+	.zidx5{z-index: 5;}
+
+	.dtable{
+		display: table;
+	}
+
+	.dflex{
+		display: flex;
+	}
+	.dflex_wrap{
+		flex-wrap: wrap;
+	}
+	.dflex_fd_rr{
+		flex-direction: row-reverse;
+	}
+	.dflex_basic{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.dflex_basic_2{
+		display: flex;
+		justify-content: space-between;
+	}
+	.dflex_basic_3{
+		display: flex;
+		justify-content: center;
+	}
+	.dflex_basic_4{
+		display: flex;
+		align-items: center;
+	}
+	.dflex_valign{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.dflex_vhalign{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+
+
+	.childimg_basic img,
+	.img_basic{
+		float: left;
+		width: 100%;
+		height: auto;
+	}
+	.img_basic_2{
+		float: left;
+		height: auto;
+	}
+
+	.imgfit_basic{
+		object-fit: cover;
+		object-position: center;
+	}
+
+
+
+	.aspectratio_1_1{
+		aspect-ratio: 1/1;
+	}
+	.aspectratio_3_2{
+		aspect-ratio: 3/2;
+	}
+	.aspectratio_16_10{
+		aspect-ratio: 16/10;
+	}
+	.aspectratio_16_9{
+		aspect-ratio: 16/9;
+	}
+	.aspectratio_16_8{
+		aspect-ratio: 16/8;
+	}
+	.aspectratio_16_7{
+		aspect-ratio: 16/7;
+	}
+
+
+
+	.ts_1{transition:0.4s;-webkit-transition:0.4s;}
+	.ts_2{transition:0.6s;-webkit-transition:0.6s;}
+	.ts_3{transition:0.9s;-webkit-transition:0.9s;}
+	.ts_4{transition:1.5s;-webkit-transition:1.5s;}
+	.ts_5{transition:2s;-webkit-transition:2s;}
+
+
+
+	.bdr_full{border-radius:50%;-webkit-border-radius:50%;}
+	.bdr_1{border-radius:1px;-webkit-border-radius:1px;}
+	.bdr_2{border-radius:2px;-webkit-border-radius:2px;}
+	.bdr_3{border-radius:3px;-webkit-border-radius:3px;}
+	.bdr_4{border-radius:4px;-webkit-border-radius:4px;}
+	.bdr_5{border-radius:5px;-webkit-border-radius:5px;}
+	.bdr_6{border-radius:6px;-webkit-border-radius:6px;}
+	.bdr_7{border-radius:7px;-webkit-border-radius:7px;}
+	.bdr_8{border-radius:8px;-webkit-border-radius:8px;}
+	.bdr_9{border-radius:9px;-webkit-border-radius:9px;}
+	.bdr_10{border-radius:10px;-webkit-border-radius:10px;}
+	.bdr_15{border-radius:15px;-webkit-border-radius:15px;}
+	.bdr_20{border-radius:20px;-webkit-border-radius:20px;}
+	.bdr_25{border-radius:20px;-webkit-border-radius:20px;}
+	.bdr_30{border-radius:30px;-webkit-border-radius:30px;}
+	.bdr_40{border-radius:40px;-webkit-border-radius:40px;}
+	.bdr_50{border-radius:50px;-webkit-border-radius:50px;}
+	.bdr_60{border-radius:60px;-webkit-border-radius:60px;}
+	.bdr_70{border-radius:70px;-webkit-border-radius:70px;}
+
+
+
+
+
+	.fw{width:100%;}
+	.fh{width:50%;}
+	.fq{width:25%;}
+
+	.afterborder_1{
+		position: relative;
+	}
+	.afterborder_1:after{
+		position: absolute;
+		left: 0; bottom: 0;
+		content: '';
+		z-index: 2;
+	}
+
+
+
